@@ -1,0 +1,61 @@
+
+.meeting_header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #3f4147;
+}
+
+.logo_text{
+    font-family: 'Great Vibes', cursive;
+    color: #4a8cff;
+    font-size: 23px;
+    margin-right: 7px;
+}
+
+.logo_text_container{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+.search_input_container{
+    position: relative;
+}
+
+.search_input{
+    background: #33353a;
+    border-radius: 6px;
+    border: none;
+    text-indent: 32px;
+    height: 35px;
+    width: 190px;
+    font-size: 13px;
+    margin-right: 9px;
+    outline-color: #a6a8b1;
+    outline: none;
+}
+
+.search_input_icon{
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    font-size: 11px !important;
+}
+
+.profile_img_container{
+    width: 40px;
+    height: 34px;
+    margin-right: 15px;
+}
+
+.profile_img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #4a8cff;
+    border-radius: 5px;
+}
+
+.side_profile_search{
+    display: flex;
+}

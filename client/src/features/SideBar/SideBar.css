@@ -1,0 +1,48 @@
+
+.sidebar_quick_nav{
+    /* width: 100px !important; */
+    border-right: 1px solid #ffffff29;
+    flex: 0 0 80px !important;
+    height: 100vh;
+}
+
+.meeting_icon{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.sidenav_icon_links{
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.sidenav_icon{
+    cursor: pointer;
+    font-size: 20px !important;
+    color: #80808085;
+}
+
+.sidenav_icon_svg{
+    width: 23px;
+    color: #4f5154;
+    cursor: pointer;
+}
+
+.settings_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 14px;
+    left: 21px;
+}
+
+.settings_icon .rs-icon-cog{
+    font-size: 21px !important;
+    top: -5px !important;
+}
